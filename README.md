@@ -1,1 +1,1 @@
-# corner-post-front-end
+# Corner Post blog website front-end part
