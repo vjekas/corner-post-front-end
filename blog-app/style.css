@@ -490,7 +490,12 @@ form {
 .form__control {
     display: flex;
     flex-direction: column;
-    gap: 0.4rem;
+    gap: 0.6rem;
+}
+
+.form__control.inline {
+    flex-direction: row;
+    align-items: center;
 }
 
 input,
@@ -510,6 +515,11 @@ select {
 
 .form__section small a {
     color: var(--color-primary);
+}
+
+/* ----- ADD CATEGORY textarea change ----- */
+.textarea__add-category {
+    border-radius: var(--card-border-radius-3);
 }
 
 /* ==========================================================================
